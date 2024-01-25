@@ -12,16 +12,27 @@ using System.Linq;
             int guesses;
             String response;
             
+            bool parsingResult;
             while (playAgain)
             {       
-                Console.WriteLine("Choose the min number");
-                int min = int.Parse(Console.ReadLine());
-                Console.WriteLine("Choose the max number");
-                int max = int.Parse(Console.ReadLine());
+                Console.WriteLine("Wybierz przedział, zaczynając od minimalnej liczby");
+                int min=0;
+                        parsingResult = int.TryParse(Console.ReadLine(), out min);
+                    if(!parsingResult)
+                    {
+                        min=1;
+                    }
+                Console.WriteLine("Teraz podaj maksymalną liczbę przedziału");
+                int max=0;
+                        parsingResult = int.TryParse(Console.ReadLine(), out max);
+                    if(!parsingResult)
+                    {
+                        max=1;
+                    }
                 while (max < min)
                 {
-                    Console.WriteLine("Choose the number higher than min number");
-                    max = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Wybierz liczbę większą od podanej liczby minimalnej");
+                    max = int.Parse(Console.ReadLine()??string.Empty);
                 }
                 
             
@@ -33,30 +44,30 @@ using System.Linq;
 
                     while (guess != number)
                     {
-                        Console.WriteLine("Guess a number between " + min + " - " + max + " : ");
+                        Console.WriteLine("Zgadnij liczbę pomiędzy " + min + " - " + max + " : ");
                         guess = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Guess: " + guess);
+                        Console.WriteLine("Twoja odpowiedź: " + guess);
 
                         if (guess > number)
                         {
-                            Console.WriteLine(guess + " is to high!");
+                            Console.WriteLine(guess + " podana liczba jest za wysoka");
                         }
                         else if (guess < number)
                         {
-                            Console.WriteLine(guess + " is to low!");
+                            Console.WriteLine(guess + " podana liczba jest za niska");
                         }
                         guesses++;
                     
                     }
-                    Console.WriteLine("Number: " + number);
-                    Console.WriteLine("YOU WIN!");
-                    Console.WriteLine("Guesses: " + guesses);
+                    Console.WriteLine("Poprawna liczba: " + number);
+                    Console.WriteLine("Gratulacje");
+                    Console.WriteLine("Ilość odpowiedzi: " + guesses);
 
-                    Console.WriteLine("Would you like to play again (Y/N): ");
-                    response = Console.ReadLine();
+                    Console.WriteLine("Czy chcesz zagrać ponownie? (T/N): ");
+                    response = Console.ReadLine()??string.Empty;
                     response = response.ToUpper();
 
-                    if (response == "Y")
+                    if (response == "T")
                     {
                         playAgain = true;
                     }
@@ -67,9 +78,9 @@ using System.Linq;
 
                      
             }
-            Console.WriteLine("Thanks for playing!");
+            Console.WriteLine("Dzięki za grę :)");
 
-            Console.ReadKey();
+        
             
         }
     }    
