@@ -1,0 +1,14 @@
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\bin\Debug\net7.0\GraNaZaliczenie.exe
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\bin\Debug\net7.0\GraNaZaliczenie.deps.json
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\bin\Debug\net7.0\GraNaZaliczenie.runtimeconfig.json
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\bin\Debug\net7.0\GraNaZaliczenie.dll
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\bin\Debug\net7.0\GraNaZaliczenie.pdb
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\obj\Debug\net7.0\GraNaZaliczenie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\obj\Debug\net7.0\GraNaZaliczenie.AssemblyInfoInputs.cache
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\obj\Debug\net7.0\GraNaZaliczenie.AssemblyInfo.cs
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\obj\Debug\net7.0\GraNaZaliczenie.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\obj\Debug\net7.0\GraNaZaliczenie.dll
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\obj\Debug\net7.0\refint\GraNaZaliczenie.dll
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\obj\Debug\net7.0\GraNaZaliczenie.pdb
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\obj\Debug\net7.0\GraNaZaliczenie.genruntimeconfig.cache
+C:\Users\Mateusz\Documents\VisualStudio Code\GraNaZaliczenie\obj\Debug\net7.0\ref\GraNaZaliczenie.dll
